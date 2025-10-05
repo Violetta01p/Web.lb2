@@ -57,6 +57,6 @@ p::first-letter {
 a::after {
     content: " ↗";
 }
-li > a:last-child[href^="https"] {
+li > a:last-child[href^="http"] {
     color: green; 
 }
