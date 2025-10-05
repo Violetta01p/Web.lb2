@@ -5,6 +5,9 @@ li:first-child {
 li > a:last-child {
     color: red;
 }
+li > a:last-child[href^="https"] {
+    color: green; 
+}
 
 input[disabled] {
     background-color: #ccc;
@@ -12,10 +15,6 @@ input[disabled] {
 
 div > p {
     font-weight: 600;
-}
-
-a[href^="https"] {
-    color: green;
 }
 
 input[type="text"] {
