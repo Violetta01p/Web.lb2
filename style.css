@@ -14,10 +14,6 @@ div > p {
     font-weight: 600;
 }
 
-a[href^="https"] {
-    color: green;
-}
-
 input[type="text"] {
     border: 1px solid blue;
 }
@@ -60,4 +56,7 @@ p::first-letter {
 
 a::after {
     content: " ↗";
+}
+a[href^="https"] {
+    color: green;
 }
