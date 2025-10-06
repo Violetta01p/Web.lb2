@@ -27,7 +27,7 @@ div p {
 }
 
 input:checked {
-    background-color: #e6f4ff;
+    accent-color: skyblue;
 }
 
 li > a {
